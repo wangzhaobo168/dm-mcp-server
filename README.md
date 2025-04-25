@@ -12,7 +12,11 @@
 
 windows 下可以直接下载 dm-mcp-server 二进制文件，并添加到 PATH 中。
 
-达梦MCP  Server 配置示例： 
+### 使用 go install 安装
+   ```bash
+   go install github.com/wangzhaobo168/dm-mcp-server
+   ```
+### 达梦MCP  Server 配置示例： 
 ```
 {
     "mcpServers": {
